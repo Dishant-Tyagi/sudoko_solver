@@ -1,7 +1,7 @@
 import tkinter as tk
 
 class SudokuSolverGUI:
-    def _init_(self, master):
+    def __init__(self, master):
         self.master = master
         self.master.title("Sudoku Solver")
         self.board = [[0 for _ in range(9)] for _ in range(9)]
